@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike World</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header class="bg-dark text-white text-center py-5">
+        <h1 class="display-4 fw-bold">Bike World</h1>
+        <p class="lead">Explore Modern Road and Mountain Bikes</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="road.html">Road Bikes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mountain.html">Mountain Bikes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="components.html">Components</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="position-relative text-center text-white">
+        <img src="Bike.jpg" class="hero-bg">
+        <div class="position-absolute top-50 start-50 translate-middle bg-dark bg-opacity-50 p-4 rounded">
+            <h2>Welcome to Bike World</h2>
+            <p>Learn about different types of bikes and discover the best models today.</p>
+        </div>
+    </section>
+
+    <div class="container my-5">
+        <div class="row g-4">
+
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h2>Road Bikes</h2>
+                        <p>Lightweight bikes built for speed on paved roads.</p>
+                        <a href="road.html" class="btn btn-primary">View →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h2>Mountain Bikes</h2>
+                        <p>Durable bikes for trails and rough terrain.</p>
+                        <a href="mountain.html" class="btn btn-success">View →</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>© 2026 Bike World</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
